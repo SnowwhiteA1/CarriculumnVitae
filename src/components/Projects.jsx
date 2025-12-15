@@ -5,8 +5,8 @@ export default function Projects() {
       <h2 className="text-xl font-semibold text-black-500 mb-2 bg-gray-300 px-4 py-2 w-full block">Projects</h2>
 
       <div className="mb-4">
-       <li> <h3 className="font-bold">Civic Alert Original — Android App</h3></li>
-        <p>Incident-reporting system using CameraX + Firebase.</p>
+       <li> <a href="https://github.com/SnowwhiteA1/Bughte_Tracker_Application-"><h3 className="font-bold">Budget Tracker — Application</h3></a></li>
+        <p>Crossplatform application responsible for tracking budget</p>
       </div>
 
       <div className="mb-4">
