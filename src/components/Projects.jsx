@@ -16,17 +16,22 @@ export default function Projects() {
 
       <div className="mb-4">
         <a href="https://github.com/SnowwhiteA1/MAISH"><li><h3 className="font-bold">CO₂ Emission Prediction Platform</h3></li></a>
-        <p>Machine-learning model + user interface for predictions.</p>
+        <p>Machine-learning model + user interface for predictions (HTML + CSS)</p>
       </div>
       
       <div className="mb-4">
        <a href="https://github.com/SnowwhiteA1/Project-and-Beneficiaries-Management-Syatem"> <li><h3 className="font-bold">Projects and Beneficiary Management System  </h3></li></a>
-        <p>Software system for tracking beneficiaries and their replacements in a project. </p>
+        <p>Software system for tracking beneficiaries and their replacements in a project. + React + Python + PostgressDBS </p>
+      </div>
+      
+       <div className="mb-4">
+        <a href="https://github.com/SnowwhiteA1/Encryption"><li><h3 className="font-bold">Cyber Security (Encryption)</h3></li></a>
+        <p> Using the AES 256 for Encryption and decryption</p>
       </div>
 
        <div className="mb-4">
         <a href="https://github.com/SnowwhiteA1/AccessProject_JumpStart"><li><h3 className="font-bold">Facilitator and Programme director</h3></li></a>
-        <p>Mentor and programme director for a ICT Learnership </p>
+        <p>Mentor and programme director for a ICT Learnership(Introduction to programing Node.js + React + Firebase +Hardware) </p>
       </div>
       
       

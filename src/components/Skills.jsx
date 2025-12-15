@@ -18,6 +18,8 @@ export default function Skills() {
         <li>SQL, Firebase DB, MS Access, PostgreSQL</li>
         <li>Project Management</li>
         <li>Facilitator / Tutor</li>
+        <li>Networking(Packet Tracer )</li>
+        <li>Cyber Security</li>
       </ul>
     </section>
   );
