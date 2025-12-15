@@ -1,41 +1,88 @@
 export default function Projects() {
   return (
     <section className="mb-8">
+      <h2 className="text-xl font-semibold text-black-500 mb-2 bg-gray-300 px-4 py-2 w-full block">
+        Projects
+      </h2>
+
       <ul>
-      <h2 className="text-xl font-semibold text-black-500 mb-2 bg-gray-300 px-4 py-2 w-full block">Projects</h2>
+        <li className="mb-4">
+          <a
+            href="https://github.com/SnowwhiteA1/Bughte_Tracker_Application-"
+            className="font-bold text-black-600 hover:text-blue-600 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Budget Tracker — Application
+          </a>
+          <p>Crossplatform application responsible for tracking budget</p>
+        </li>
 
-      <div className="mb-4">
-       <li> <a href="https://github.com/SnowwhiteA1/Bughte_Tracker_Application-"><h3 className="font-bold">Budget Tracker — Application</h3></a></li>
-        <p>Crossplatform application responsible for tracking budget</p>
-      </div>
+        <li className="mb-4">
+          <a
+            href="https://github.com/SnowwhiteA1/JumpStart-Smart-House"
+            className="font-bold text-black-600 hover:text-blue-600 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Smart Irrigation System
+          </a>
+          <p>IoT and automation using NodeMCU + Flask backend + React dashboard.</p>
+        </li>
 
-      <div className="mb-4">
-        <a href="https://github.com/SnowwhiteA1/JumpStart-Smart-House"><li><h3 className="font-bold">Smart Irrigation System</h3></li></a>
-        <p>IoT and automation using NodeMCU + Flask backend + React dashboard.</p>
-      </div>
+        <li className="mb-4">
+          <a
+            href="https://github.com/SnowwhiteA1/MAISH"
+            className="font-bold text-black-600 hover:text-blue-600 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CO₂ Emission Prediction Platform
+          </a>
+          <p>Machine-learning model + user interface for predictions (HTML + CSS)</p>
+        </li>
 
-      <div className="mb-4">
-        <a href="https://github.com/SnowwhiteA1/MAISH"><li><h3 className="font-bold">CO₂ Emission Prediction Platform</h3></li></a>
-        <p>Machine-learning model + user interface for predictions (HTML + CSS)</p>
-      </div>
-      
-      <div className="mb-4">
-       <a href="https://github.com/SnowwhiteA1/Project-and-Beneficiaries-Management-Syatem"> <li><h3 className="font-bold">Projects and Beneficiary Management System  </h3></li></a>
-        <p>Software system for tracking beneficiaries and their replacements in a project. + React + Python + PostgressDBS </p>
-      </div>
-      
-       <div className="mb-4">
-        <a href="https://github.com/SnowwhiteA1/Encryption"><li><h3 className="font-bold">Cyber Security (Encryption)</h3></li></a>
-        <p> Using the AES 256 for Encryption and decryption</p>
-      </div>
+        <li className="mb-4">
+          <a
+            href="https://github.com/SnowwhiteA1/Project-and-Beneficiaries-Management-Syatem"
+            className="font-bold text-black-600 hover:text-blue-600 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Projects and Beneficiary Management System
+          </a>
+          <p>
+            Software system for tracking beneficiaries and their replacements in a project.
+            + React + Python + PostgressDBS
+          </p>
+        </li>
 
-       <div className="mb-4">
-        <a href="https://github.com/SnowwhiteA1/AccessProject_JumpStart"><li><h3 className="font-bold">Facilitator and Programme director</h3></li></a>
-        <p>Mentor and programme director for a ICT Learnership(Introduction to programing Node.js + React + Firebase +Hardware) </p>
-      </div>
-      
-      
-      
+        <li className="mb-4">
+          <a
+            href="https://github.com/SnowwhiteA1/Encryption"
+            className="font-bold text-black-600 hover:text-black-600 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cyber Security (Encryption)
+          </a>
+          <p>Using AES 256 for encryption and decryption</p>
+        </li>
+
+        <li className="mb-4">
+          <a
+            href="https://github.com/SnowwhiteA1/AccessProject_JumpStart"
+            className="font-bold text-black-600 hover:text-blue-600 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Facilitator and Programme Director
+          </a>
+          <p>
+            Mentor and programme director for an ICT Learnership (Introduction to
+            programming Node.js + React + Firebase + Hardware)
+          </p>
+        </li>
       </ul>
     </section>
   );

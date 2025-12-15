@@ -33,25 +33,28 @@ export default function Header() {
   };
 
   return (
-    <header className="relative text-left mb-8 p-4 bg-gray-200 rounded-md shadow">
+    <header className="relative text-left mb-6 p-4 bg-gray-200 rounded-md shadow">
       <h1 className="text-4xl font-bold text-black-600">Tshepiso P Makuoa</h1>
 
-      <p className="text-xl">
+      <p className="text-xl sm:text-base" >
         Software Developer | Machine Learning | Project Manager
       </p>
 
-      <p className="text-sm">
+      <p className="text-sm sm:text-sm break-words
+      ">
         Email: <a href="mailto:tshepisomakuoa02@gmail.com">tshepisomakuoa02@gmail.com </a>| Phone:<a href="tel:+27693246135">069 324 6135 </a>| LinkedIn: <a href="https://www.linkedin.com/in/tshepiso-makuoa-1089782a3/"
         className="text-blue-600 hover:text-red-600 ">LinkedIn Profile</a>
       </p>
 
       {/* Download PDF Button */}
-      <button
-        onClick={downloadPDF}
-        className="absolute bottom-2 right-2 bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
-      >
-        Download CV (PDF)
-      </button>
+     <div className="mt-4 sm:mt-0 sm:absolute sm:bottom-2 sm:right-2">
+        <button
+          onClick={downloadPDF}
+          className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-red-600 transition w-full sm:w-auto"
+        >
+          Download CV (PDF)
+        </button>
+      </div>
     </header>
   );
 }
