@@ -9,7 +9,7 @@ import Personal from './components/Personal.jsx';
 
 export default function App() {
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg min-h-screen text-gray-800">
+    <div className="w-full min-h-screen p-6 bg-white text-gray-800">
       <Header />
       <Personal />
       <Summary />

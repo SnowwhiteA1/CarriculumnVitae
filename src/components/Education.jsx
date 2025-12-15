@@ -21,8 +21,10 @@ export default function Education() {
 
       <li><div>
       <p><b>Tetiary or College </b>University of Mpumalanga</p>
-      <p>Duration: 2022 -2024 (3 yrs)</p>
-      <p><b>Major Module:</b> Applications of Artificial Intelligent</p>
+      <p><b>Duration:</b> 2022 -2024 (3 yrs)</p>
+      <p><b>Qualification:</b> Batchelor of Information Communication Technology.</p>
+      <p><b>Major Module:</b> Applications of Artificial Intelligence</p>
+      
       </div></li>
       </ul>
 

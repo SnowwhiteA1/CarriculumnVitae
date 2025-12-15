@@ -6,7 +6,9 @@ export default function Experience() {
       <ul className="list-disc pl-6 mt-2">
         <li>Developed AI/ML‑powered systems.</li>
         <li>Created Android and web applications.</li>
+        <li>Hardware - Acebott, Arduno, Sensors </li>
         <li>Built IoT automation solutions.</li>
+        <li>Hardware and Technical Support </li>
          <li>Facilitator for ICT student under (Software Development Programme ) </li>
       </ul>
     </section>
